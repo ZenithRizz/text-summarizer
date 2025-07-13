@@ -1,6 +1,9 @@
 # 📝 Text Summarizer: Extractive vs. Abstractive
 
-A Streamlit-based app that compares two powerful text summarization techniques:
+Extractive text summarizer-Selects and combines key sentences or phrases directly from the original text.
+Abstractive text summarizer-Generates new text that paraphrases and shortens the original content.
+
+This Text-summarizer is a Streamlit-based app that compares two powerful text summarization techniques:
 
 - **Extractive Summarization** using **BERT**
 - **Abstractive Summarization** using **BART (facebook/bart-large-cnn)**
@@ -29,10 +32,22 @@ It also provides **ROUGE score evaluations** for both methods using CNN/DailyMai
 
 ---
 
-## 🧰 Installation
+## 🛠 Installation
 
-### 1. Clone the repository
+### 1. Clone the repository 
 
 ```bash
-git clone https://github.com/yourusername/text-summarizer.git
+git clone https://github.com/yourusername/text-summarizer.git //put in your username
 cd text-summarizer
+```
+### 1. Create & activate a virtual environment(here venv)
+
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+```
+
+
