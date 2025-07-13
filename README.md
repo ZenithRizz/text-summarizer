@@ -37,10 +37,10 @@ It also provides **ROUGE score evaluations** for both methods using CNN/DailyMai
 ### 1. Clone the repository 
 
 ```bash
-git clone https://github.com/yourusername/text-summarizer.git //put in your username
+git clone https://github.com/yourusername/text-summarizer.git #put in your username
 cd text-summarizer
 ```
-### 1. Create & activate a virtual environment(here venv)
+### 2. Create & activate a virtual environment(here venv)
 
 ```bash
 python -m venv venv
@@ -49,5 +49,15 @@ venv\Scripts\activate
 # On Mac/Linux:
 source venv/bin/activate
 ```
+### 3. Install dependencies
 
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Run the App
+
+```bash
+streamlit run text_summarizer.py
+```
 
