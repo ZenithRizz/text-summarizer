@@ -49,7 +49,7 @@ venv\Scripts\activate
 # On Mac/Linux:
 source venv/bin/activate
 ```
-### 3. Install dependencies
+### 3. Install dependencies & Run testdep.py to confirm
 
 ```bash
 pip install -r requirements.txt
